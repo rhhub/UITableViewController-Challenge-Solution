@@ -14,13 +14,13 @@
 		35CDB052191176E500C181D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB051191176E500C181D3 /* main.m */; };
 		35CDB056191176E500C181D3 /* RHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB055191176E500C181D3 /* RHAppDelegate.m */; };
 		35CDB059191176E500C181D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CDB057191176E500C181D3 /* Main.storyboard */; };
-		35CDB05C191176E500C181D3 /* RHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB05B191176E500C181D3 /* RHViewController.m */; };
 		35CDB05E191176E500C181D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CDB05D191176E500C181D3 /* Images.xcassets */; };
 		35CDB065191176E500C181D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CDB064191176E500C181D3 /* XCTest.framework */; };
 		35CDB066191176E500C181D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CDB045191176E500C181D3 /* Foundation.framework */; };
 		35CDB067191176E500C181D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CDB049191176E500C181D3 /* UIKit.framework */; };
 		35CDB06F191176E500C181D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35CDB06D191176E500C181D3 /* InfoPlist.strings */; };
 		35CDB071191176E500C181D3 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB070191176E500C181D3 /* UITableViewController_Challenge_SolutionTests.m */; };
+		35CDB07C19117BB100C181D3 /* RHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CDB07B19117BB100C181D3 /* RHTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		35CDB054191176E500C181D3 /* RHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHAppDelegate.h; sourceTree = "<group>"; };
 		35CDB055191176E500C181D3 /* RHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAppDelegate.m; sourceTree = "<group>"; };
 		35CDB058191176E500C181D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35CDB05A191176E500C181D3 /* RHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHViewController.h; sourceTree = "<group>"; };
-		35CDB05B191176E500C181D3 /* RHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHViewController.m; sourceTree = "<group>"; };
 		35CDB05D191176E500C181D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35CDB063191176E500C181D3 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CDB064191176E500C181D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		35CDB06C191176E500C181D3 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		35CDB06E191176E500C181D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35CDB070191176E500C181D3 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		35CDB07A19117BB100C181D3 /* RHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHTableViewController.h; path = ../RHTableViewController.h; sourceTree = "<group>"; };
+		35CDB07B19117BB100C181D3 /* RHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHTableViewController.m; path = ../RHTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				35CDB054191176E500C181D3 /* RHAppDelegate.h */,
 				35CDB055191176E500C181D3 /* RHAppDelegate.m */,
 				35CDB057191176E500C181D3 /* Main.storyboard */,
-				35CDB05A191176E500C181D3 /* RHViewController.h */,
-				35CDB05B191176E500C181D3 /* RHViewController.m */,
+				35CDB07A19117BB100C181D3 /* RHTableViewController.h */,
+				35CDB07B19117BB100C181D3 /* RHTableViewController.m */,
 				35CDB05D191176E500C181D3 /* Images.xcassets */,
 				35CDB04C191176E500C181D3 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CDB056191176E500C181D3 /* RHAppDelegate.m in Sources */,
+				35CDB07C19117BB100C181D3 /* RHTableViewController.m in Sources */,
 				35CDB052191176E500C181D3 /* main.m in Sources */,
-				35CDB05C191176E500C181D3 /* RHViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
